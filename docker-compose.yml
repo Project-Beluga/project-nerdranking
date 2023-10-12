@@ -1,0 +1,12 @@
+  services:
+    localdb: 
+      image: postgres:15.1
+      ports: 
+        - '5432:5432'
+      volumes:
+        - ./db/dumps:app-db-dumps
+      environment:
+        - POSTGRES_USER=default
+        - POSTGRES_PASSWORD=password
+        - POSTGRES_DB=local
+

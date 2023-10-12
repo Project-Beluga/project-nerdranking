@@ -1,0 +1,30 @@
+{
+  "name": "project-nerdranking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Project-Beluga/project-nerdranking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Project-Beluga/project-nerdranking/issues"
+  },
+  "homepage": "https://github.com/Project-Beluga/project-nerdranking#readme",
+  "dependencies": {
+    "express": "4.18.2",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.4",
+    "@typescript-eslint/eslint-plugin": "6.7.5",
+    "eslint": "8.51.0",
+    "ts-node": "10.9.1"
+  }
+}
